@@ -198,6 +198,14 @@ header .sub-menu li a:hover {
 }
 .section--visual .inner {
     padding: 160px 0;
+    display: flex;
+}
+.section--visual .summary {
+    flex-grow: 1;
+    flex-basis: 0;
+    /* 이것과 동일 */
+    /* flex: 1; */
+    margin-right: 90px;
 }
 .section--visual .summary__title {
     color: #ffffff;
@@ -212,6 +220,7 @@ header .sub-menu li a:hover {
 }
 #sign-form {
     width: 340px;
+    margin-top: 16px;
 }
 #sign-form li {
     margin-bottom: 17px;
