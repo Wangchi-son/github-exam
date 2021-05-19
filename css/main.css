@@ -274,7 +274,7 @@ header .sub-menu li a:hover {
     height: 100%;
 }
 
-
+/* TILES */
 .section--feature .tiles {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
@@ -283,8 +283,7 @@ header .sub-menu li a:hover {
     max-width: 1200px;
 }
 .section--feature .tiles ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+
 }
 .section--feature .tiles li {
     padding: 34px 24px;
@@ -292,6 +291,8 @@ header .sub-menu li a:hover {
     line-height: 1.5;
     border-right: 1px solid #e5e5e5;
     box-sizing: border-box;
+    float: left;
+    width: 25%;
 }
 .section--feature .tiles li:last-child {
     border-right: none;
